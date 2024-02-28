@@ -39,20 +39,4 @@ Unlike the previous categories that are limited to network penetration, physical
  \end{itemize}
 \end{enumerate}  
 
-% \setlength{\extrarowheight}{3pt} %增加整个表格的行高，而不会影响其他部分的排版
-% \begin{table}[]
-%     \centering
-%     \caption{Attacker capabilities and corresponding attack types}
-%     \label{tab1:Attacker capabilities}
-%     \begin{tabular}{ll}
-%         \hline
-%         \multicolumn{1}{c}{Attacker Capability}           & \multicolumn{1}{c}{Attack Type}                 \\ \hline
-%         \multirow{2}{*}{Parse ICS network}                & Information Leakage                             \\ \cline{2-2} 
-%                                                           & Replay Attack                                   \\ \hline
-%         \multirow{2}{*}{Understand Physical Processes}    & Command Injection                               \\ \cline{2-2} 
-%                                                           & Sensor Data Tampering                           \\ \hline
-%         \multirow{2}{*}{Understand Control Logic}         & \multicolumn{1}{c}{Control Parameter Tampering} \\ \cline{2-2} 
-%                                                           & Multi-Point Attack                              \\ \hline
-%         Access to Field Devices                           & Physical Attack                                 \\ \hline
-%     \end{tabular}
-% \end{table}
+
