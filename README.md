@@ -3,7 +3,7 @@
 ### Attack model
 The types of attacks and implementation criteria designed by attackers with different capabilities are presented as below. The experimental platform allows for the design of attack types that cover all aspects of digital inputs, control parameters and analog inputs. The level of attack increases gradually, starting with network access and progressively acquiring the knowledge required for the attack to realize advanced stealth attacks.
 
-![Attacker capabilities and corresponding attack types](images/Attacker capabilities and corresponding attack types.png)  
+![Attacker capabilities and corresponding attack types](images/Attacker_capabilities.png)  
 
 1. Access to ICS network
    - Attackers focus on gathering information about the topology and devices in the industrial control network.
