@@ -5,9 +5,10 @@ The types of attacks and implementation criteria designed by attackers with diff
 <center>  
   <img src="images/Attacker_capabilities.png" alt="Attacker capabilities and corresponding attack types" width="50%">  
 </center>  
+
 1. Access to ICS network
-   - Attackers focus on gathering information about the topology and devices in the industrial control network.
-     - Information Leakage: Use scanning tools to obtain critical information such as IP addresses, device models, and operating systems of the devices on the industrial control network. 
+   - Attackers focus on gathering information about the topology and devices in the industrial control network. 
+     - Information Leakage: Use scanning tools to obtain critical information such as IP addresses, device models, and operating systems of the devices on the industrial control network.  
      - Replay Attack: Resend the eavesdropped data to the receiver without knowing the exact meaning of the specific data being replayed.
 
 2. Understand Physical Processes
