@@ -24,3 +24,19 @@ The types of attacks and implementation criteria designed by attackers with diff
 4. Access to Field Devices
    - Unlike the previous categories that are limited to network penetration, physical attackers can directly access the location of the control equipment through social engineering means.
      - Physical Attack: Including damaging equipment, manipulating operations, or exploiting the help of internal employees to execute attacks.
+    
+# Citation Request
+Please cite the following paper if you use this dataset: Y. Xue, J. Pan, Y. Geng, Z. Yang, M. Liu and R. Deng, "Real-Time Intrusion Detection Based on Decision Fusion in Industrial Control Systems," in IEEE Transactions on Industrial Cyber-Physical Systems, vol. 2, pp. 143-153, 2024, doi: 10.1109/TICPS.2024.3406505.
+keywords: {Security;Intrusion detection;Integrated circuit modeling;Real-time systems;Data models;Computer security;Production;Cybersecurity datasets;decision fusion;industrial control systems;intrusion detection},
+
+@ARTICLE{10540291,
+  author={Xue, Yawen and Pan, Jie and Geng, Yangyang and Yang, Zeyu and Liu, Mengxiang and Deng, Ruilong},
+  journal={IEEE Transactions on Industrial Cyber-Physical Systems}, 
+  title={Real-Time Intrusion Detection Based on Decision Fusion in Industrial Control Systems}, 
+  year={2024},
+  volume={2},
+  number={},
+  pages={143-153},
+  keywords={Security;Intrusion detection;Integrated circuit modeling;Real-time systems;Data models;Computer security;Production;Cybersecurity datasets;decision fusion;industrial control systems;intrusion detection},
+  doi={10.1109/TICPS.2024.3406505}}
+
