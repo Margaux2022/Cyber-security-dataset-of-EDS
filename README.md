@@ -30,7 +30,7 @@ Please cite the following paper if you use this dataset: Y. Xue, J. Pan, Y. Geng
 
 keywords: {Security;Intrusion detection;Integrated circuit modeling;Real-time systems;Data models;Computer security;Production;Cybersecurity datasets;decision fusion;industrial control systems;intrusion detection},
 
-> @ARTICLE{10540291,
+`@ARTICLE{10540291,
   author={Xue, Yawen and Pan, Jie and Geng, Yangyang and Yang, Zeyu and Liu, Mengxiang and Deng, Ruilong},
   journal={IEEE Transactions on Industrial Cyber-Physical Systems}, 
   title={Real-Time Intrusion Detection Based on Decision Fusion in Industrial Control Systems}, 
@@ -40,4 +40,4 @@ keywords: {Security;Intrusion detection;Integrated circuit modeling;Real-time sy
   pages={143-153},
   keywords={Security;Intrusion detection;Integrated circuit modeling;Real-time systems;Data models;Computer security;Production;Cybersecurity datasets;decision fusion;industrial control systems;intrusion detection},
   doi={10.1109/TICPS.2024.3406505}}
-
+`
