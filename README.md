@@ -41,4 +41,4 @@ keywords: {Security;Intrusion detection;Integrated circuit modeling;Real-time sy
   pages={143-153},
   keywords={Security;Intrusion detection;Integrated circuit modeling;Real-time systems;Data models;Computer security;Production;Cybersecurity datasets;decision fusion;industrial control systems;intrusion detection},
   doi={10.1109/TICPS.2024.3406505}}
-'''
+
