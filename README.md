@@ -28,7 +28,6 @@ The types of attacks and implementation criteria designed by attackers with diff
 # Citation Request
 Please cite the following paper if you use this dataset: Y. Xue, J. Pan, Y. Geng, Z. Yang, M. Liu and R. Deng, "Real-Time Intrusion Detection Based on Decision Fusion in Industrial Control Systems," in IEEE Transactions on Industrial Cyber-Physical Systems, vol. 2, pp. 143-153, 2024, doi: 10.1109/TICPS.2024.3406505.
 
-keywords: {Security;Intrusion detection;Integrated circuit modeling;Real-time systems;Data models;Computer security;Production;Cybersecurity datasets;decision fusion;industrial control systems;intrusion detection},
 
 ```
 @ARTICLE{10540291,
