@@ -2,9 +2,9 @@
 
 ### Attack model
 The types of attacks and implementation criteria designed by attackers with different capabilities are presented as below. The experimental platform allows for the design of attack types that cover all aspects of digital inputs, control parameters and analog inputs. The level of attack increases gradually, starting with network access and progressively acquiring the knowledge required for the attack to realize advanced stealth attacks.
-<center>  
+<div align=center>  
   <img src="images/Attacker_capabilities.png" alt="Attacker capabilities and corresponding attack types" width="50%">  
-</center>  
+</div>  
 
 1. Access to ICS network
    - Attackers focus on gathering information about the topology and devices in the industrial control network. 
@@ -25,7 +25,7 @@ The types of attacks and implementation criteria designed by attackers with diff
    - Unlike the previous categories that are limited to network penetration, physical attackers can directly access the location of the control equipment through social engineering means.
      - Physical Attack: Including damaging equipment, manipulating operations, or exploiting the help of internal employees to execute attacks.
     
-# Citation Request
+# Citation
 Please cite the following paper if you use this dataset: Y. Xue, J. Pan, Y. Geng, Z. Yang, M. Liu and R. Deng, "Real-Time Intrusion Detection Based on Decision Fusion in Industrial Control Systems," in IEEE Transactions on Industrial Cyber-Physical Systems, vol. 2, pp. 143-153, 2024, doi: 10.1109/TICPS.2024.3406505.
 
 
