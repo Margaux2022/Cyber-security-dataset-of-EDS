@@ -29,21 +29,26 @@ The types of attacks and implementation criteria designed by attackers with diff
 To construct a testbed that better aligns with real-world scenarios and reduces the sim-to-real gap, we employ a real EDS. The system is scaled down yet fully functional, capable of achieving both cold startup and normal operation scenarios.
 
 ### Process Flow of the EDS
-The control system of the EDS testbed is shown in Fig. 4(a), where the PLC serves as the central control device responsible for monitoring and controlling parameters such as temperature, flow rate, and liquid level. HMI provides operation options for the operator, including start and stop operation, change working conditions, change target parameters, also monitor the condition of EDS. 
+The control system of the EDS testbed is shown in Fig(a), where the PLC serves as the central control device responsible for monitoring and controlling parameters such as temperature, flow rate, and liquid level. HMI provides operation options for the operator, including start and stop operation, change working conditions, change target parameters, also monitor the condition of EDS. 
+<div align=center>  
+  <img src="images/EDS_prototype.png" alt=" types" width="50%">  
+</div> 
+As shown in Fig(b), physical experimental setup of EDS is physically applicable for the separation of ethanol and water mixtures. The process flow of the EDS, as shown in Fig(c), involves 3 control loops working in synergy: Loop 1 - Temperature controller (TC), Loop 2 - Flow controller (FC), Loop 3 - Liquid level controller (LC). These control loops collectively guarantee the efficient and stable operation of the Ethanol distillation process. By precisely controlling temperature, flow rate, and liquid level, the system achieves the desired separation of Ethanol and water, ultimately producing high-purity Ethanol.
+
+### Attack Implemention
+Attacks are implemented using a combination of snap7 libraries and self-built packets. Different methods and tools were used to implement the attacks for different types of attacks, such as information leakage, sensor tampering, actuator data tampering and control parameter tampering, which were obtained by repeating five trials for each attack. For the attacks on information leakage, the man-in-the-middle attack tool of Ettercap and the information acquisition function of snap7 were used. For sensor tampering, actuator data tampering, and control parameter tampering attacks, point coercion packets were created after communication was established using snap7. Physical attacks are realized by artificially opening normally closed valves, causing liquid leakage from the reactor.
 <div align=center>  
   <img src="images/HMI_Attacker.png" alt=" types" width="50%">  
 </div> 
-As shown in Fig. 4(b), physical experimental setup of EDS is physically applicable for the separation of ethanol and water mixtures. The process flow of the EDS, as shown in Fig. 4(c), involves 3 control loops working in synergy: Loop 1 - Temperature controller (TC), Loop 2 - Flow controller (FC), Loop 3 - Liquid level controller (LC). These control loops collectively guarantee the efficient and stable operation of the Ethanol distillation process. By precisely controlling temperature, flow rate, and liquid level, the system achieves the desired separation of Ethanol and water, ultimately producing high-purity Ethanol.
-### Attack Implemention
-Attacks are implemented using a combination of snap7 libraries and self-built packets. Different methods and tools were used to implement the attacks for different types of attacks, such as information leakage, sensor tampering, actuator data tampering and control parameter tampering, which were obtained by repeating five trials for each attack. For the attacks on information leakage, the man-in-the-middle attack tool of Ettercap and the information acquisition function of snap7 were used. For sensor tampering, actuator data tampering, and control parameter tampering attacks, point coercion packets were created after communication was established using snap7. Physical attacks are realized by artificially opening normally closed valves, causing liquid leakage from the reactor.
+
 ### Communications
 The cybersecurity dataset is collected using the snap7 library in Python through communication scripts that interact with the PLC at regular intervals.
+
 ## Dataset Description
 
 # Citation
 Please cite the following paper if you use this dataset: 
 Y. Xue, J. Pan, Y. Geng, Z. Yang, M. Liu and R. Deng, "Real-Time Intrusion Detection Based on Decision Fusion in Industrial Control Systems," in IEEE Transactions on Industrial Cyber-Physical Systems, vol. 2, pp. 143-153, 2024, doi: 10.1109/TICPS.2024.3406505.
-
 
 ```
 @ARTICLE{10540291,
