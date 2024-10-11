@@ -3,7 +3,7 @@
 ## Attack Model
 The types of attacks and implementation criteria designed by attackers with different capabilities are presented as below. The experimental platform allows for the design of attack types that cover all aspects of digital inputs, control parameters and analog inputs. The level of attack increases gradually, starting with network access and progressively acquiring the knowledge required for the attack to realize advanced stealth attacks.
 <div align=center>  
-  <img src="images/Attacker_capabilities.png" alt="Attacker capabilities and corresponding attack types" width="50%">  
+  <img src="images/Attacker_capabilities.png" alt="Attacker capabilities and corresponding attack types" width="40%">  
 </div>  
 
 1. Access to ICS network
@@ -33,7 +33,7 @@ The control system of the EDS testbed is shown in Fig(a), where the PLC serves a
 As shown in Fig(b), physical experimental setup of EDS is physically applicable for the separation of ethanol and water mixtures.  
 The process flow of the EDS, as shown in Fig(c), involves 3 control loops working in synergy: Loop 1 - Temperature controller (TC), Loop 2 - Flow controller (FC), Loop 3 - Liquid level controller (LC). These control loops collectively guarantee the efficient and stable operation of the Ethanol distillation process. By precisely controlling temperature, flow rate, and liquid level, the system achieves the desired separation of Ethanol and water, ultimately producing high-purity Ethanol.
 <div align=center>  
-  <img src="images/EDS_prototype.png" alt=" types" width="80%">  
+  <img src="images/EDS_prototype.png" alt=" types" width="60%">  
 </div> 
 
 ### Attack Implemention
