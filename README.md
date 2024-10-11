@@ -33,13 +33,13 @@ The control system of the EDS testbed is shown in Fig(a), where the PLC serves a
 As shown in Fig(b), physical experimental setup of EDS is physically applicable for the separation of ethanol and water mixtures.  
 The process flow of the EDS, as shown in Fig(c), involves 3 control loops working in synergy: Loop 1 - Temperature controller (TC), Loop 2 - Flow controller (FC), Loop 3 - Liquid level controller (LC). These control loops collectively guarantee the efficient and stable operation of the Ethanol distillation process. By precisely controlling temperature, flow rate, and liquid level, the system achieves the desired separation of Ethanol and water, ultimately producing high-purity Ethanol.
 <div align=center>  
-  <img src="images/EDS_prototype.png" alt=" types" width="50%">  
+  <img src="images/EDS_prototype.png" alt=" types" width="80%">  
 </div> 
 
 ### Attack Implemention
 Attacks are implemented using a combination of snap7 libraries and self-built packets. Different methods and tools were used to implement the attacks for different types of attacks, such as information leakage, sensor tampering, actuator data tampering and control parameter tampering, which were obtained by repeating five trials for each attack. For the attacks on information leakage, the man-in-the-middle attack tool of Ettercap and the information acquisition function of snap7 were used. For sensor tampering, actuator data tampering, and control parameter tampering attacks, point coercion packets were created after communication was established using snap7. Physical attacks are realized by artificially opening normally closed valves, causing liquid leakage from the reactor.
 <div align=center>  
-  <img src="images/network_tepology.png" alt=" types" width="50%">  
+  <img src="images/network_tepology.png" alt=" types" width="30%">  
 </div> 
 
 ### Communications
