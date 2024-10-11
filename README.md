@@ -29,8 +29,8 @@ The types of attacks and implementation criteria designed by attackers with diff
 To construct a testbed that better aligns with real-world scenarios and reduces the sim-to-real gap, we employ a real EDS. The system is scaled down yet fully functional, capable of achieving both cold startup and normal operation scenarios.
 
 ### Process Flow of the EDS
-The control system of the EDS testbed is shown in Fig(a), where the PLC serves as the central control device responsible for monitoring and controlling parameters such as temperature, flow rate, and liquid level. HMI provides operation options for the operator, including start and stop operation, change working conditions, change target parameters, also monitor the condition of EDS. 
-As shown in Fig(b), physical experimental setup of EDS is physically applicable for the separation of ethanol and water mixtures. 
+The control system of the EDS testbed is shown in Fig(a), where the PLC serves as the central control device responsible for monitoring and controlling parameters such as temperature, flow rate, and liquid level. HMI provides operation options for the operator, including start and stop operation, change working conditions, change target parameters, also monitor the condition of EDS.  
+As shown in Fig(b), physical experimental setup of EDS is physically applicable for the separation of ethanol and water mixtures.  
 The process flow of the EDS, as shown in Fig(c), involves 3 control loops working in synergy: Loop 1 - Temperature controller (TC), Loop 2 - Flow controller (FC), Loop 3 - Liquid level controller (LC). These control loops collectively guarantee the efficient and stable operation of the Ethanol distillation process. By precisely controlling temperature, flow rate, and liquid level, the system achieves the desired separation of Ethanol and water, ultimately producing high-purity Ethanol.
 <div align=center>  
   <img src="images/EDS_prototype.png" alt=" types" width="50%">  
